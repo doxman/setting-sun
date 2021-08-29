@@ -1,0 +1,19 @@
+{
+  "name": "setting-sun",
+  "version": "1.0.0",
+  "description": "Basic React and Typescript implementation of the Setting Sun wooden slide puzzle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doxman/setting-sun.git"
+  },
+  "author": "doxman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doxman/setting-sun/issues"
+  },
+  "homepage": "https://github.com/doxman/setting-sun#readme"
+}

@@ -1,0 +1,77 @@
+.App {
+  width: 480px;
+}
+
+.App-board, .App-resetButton {
+  position: relative;
+}
+
+.App-board {
+  background-color: black;
+  height: 600px;
+}
+
+.App-resetButton {
+  top: 30px;
+  left: 50%;
+  margin-left: -25px;
+}
+
+.PuzzlePiece {
+  background-color: white;
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.PuzzlePiece-label {
+  color: red;
+  height: 18px;
+  font-size: 15px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.PuzzlePiece--selected {
+  border: 5px dashed greenyellow;
+}
+
+.PuzzlePiece--unselected {
+  border: 2px solid blue;
+}
+
+.PieceControls {
+  background-color: transparent;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.PieceControlArrow--up, .PieceControlArrow--down {
+  position: absolute;
+  left: 50%;
+  margin-left: -16px;
+}
+
+.PieceControlArrow--up {
+  top: 5px;
+}
+
+.PieceControlArrow--down {
+  bottom: 5px;
+}
+
+.PieceControlArrow--left, .PieceControlArrow--right {
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+}
+
+.PieceControlArrow--left {
+  left: 5px;
+}
+
+.PieceControlArrow--right {
+  right: 5px;
+}
